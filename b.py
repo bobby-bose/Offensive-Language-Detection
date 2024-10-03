@@ -2,7 +2,7 @@ import os
 
 # Ask the user for the remote repository URL
 remote_url = input("Enter the remote repository URL: ")
-
+# adding command
 # Run the Git commands using os.system
 os.system('git init')
 os.system('git add .')
